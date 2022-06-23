@@ -1,0 +1,73 @@
+Lamda Function:
+
+import json
+
+def hotel_weather():
+    return "The Weather is looking sunny! :)."
+
+def car_weather():
+    return "The Weather is looking grim! :("
+
+def flight_weather():
+    return "The weather is looking ok! :O"
+
+def lambda_handler(event, context):
+    response = {
+        "dialogAction": {
+            "type": "Close",
+            "fulfillmentState": "Fulfilled",
+            "message": {
+              "contentType": "PlainText"
+            }
+        }
+    }
+    print(event)
+    if event["currentIntent"]["name"] == "CarIntent":
+        response["dialogAction"]["message"]["content"] = car_weather()
+    else:
+        if event["currentIntent"]["slots"]["slottype"] == "flightIntent":
+            response["dialogAction"]["message"]["content"] = flight_weather()
+        else:
+            response["dialogAction"]["message"]["content"] = hotel_weather()
+    return response 
+
+CarEvent: 
+
+{
+  "currentIntent": {
+    "name": "carIntent",
+    "slots": {
+      "slottype": "carIntent"
+    },
+    "slotDetails": {
+      "slottype": "carIntent"
+    }
+  }
+}
+
+FlightEvent: 
+
+{
+  "currentIntent": {
+    "name": "flightIntent",
+    "slots": {
+      "slottype": "flightIntent"
+    },
+    "slotDetails": {
+      "slottype": "flightIntent"
+    }
+  }
+
+CarEvent:
+
+{
+  "currentIntent": {
+    "name": "carIntent",
+    "slots": {
+      "slottype": "carIntent"
+    },
+    "slotDetails": {
+      "slottype": "carIntent"
+    }
+  }
+
