@@ -20,6 +20,7 @@ Launch instructions:
 4. access link provided by running the application
 
 Side Note:
-I have left an unimlemented code and tests for a possible lambda hooking function in python, simply put these in amazon lambda and they will output appropriate responses. These were not implemented in the current chatbot due to technical difficulties.
+I have left an unimlemented code and tests for a possible lambda hooking function in python, simply put these in amazon lambda and they will output appropriate responses. These were not implemented in the current chatbot due to technical difficulties. I have also attached the AmazonLex bot files in case of any errors that may occur during testing as proof that they were created and did work correctly on the AmazonLex service via AWS.
+
 
 
