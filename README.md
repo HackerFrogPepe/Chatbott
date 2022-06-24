@@ -2,7 +2,7 @@
 Chatbott README
 
 Projects Aim:
-This application was derived out university assessment, to create a chatbot implemented within a django application, this application is far from perfect but was created to show a range of skill sets both learned over time given, having been allocated three weeks to learn django and one week on how to create a basic chatbot not including the troubleshooting that occured.
+This application was derived out university assessment, to create a chatbot implemented within a django application, this application is far from perfect but was created to show a range of skill sets both learned over time given, the short amout of time given to learn resources required.
 
 Technologies used:
 Pycharm
