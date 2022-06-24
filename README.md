@@ -19,4 +19,7 @@ Launch instructions:
 3. In terminal window input 'python manage.py runserver'
 4. access link provided by running the application
 
+Side Note:
+I have left an unimlemented code and tests for a possible lambda hooking function in python, simply put these in amazon lambda and they will output appropriate responses. These were not implemented in the current chatbot due to technical difficulties.
+
 
