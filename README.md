@@ -25,7 +25,7 @@ http://127.0.0.1:8000/auth/users/ (to register as new user)
 
 
 Side Note:
-I have left an unimlemented code and tests for a possible lambda hooking function in python, simply put these in amazon lambda and they will output appropriate responses. These were not implemented in the current chatbot due to technical difficulties but prove technical ability when creating lambda functions. I have also attached the AmazonLex bot files in case of any errors that may occur during testing as proof that they were created and did work correctly on the AmazonLex service via AWS.
+I have left an unimlemented code and tests for a possible lambda hooking function in python, simply put these in amazon lambda and they will output appropriate responses. These were not implemented in the current chatbot due to technical difficulties but prove technical ability when creating lambda functions. I have also attached the AmazonLex bot files in case of any errors that may occur during execution of the program as many libraries are dependent on each other proving that they were created and did work correctly on the AmazonLex service via AWS.
 
 
 
