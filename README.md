@@ -2,7 +2,7 @@
 Chatbott README
 
 Project introduction:
-This application was derived out university assessment, to create a chatbot implemented within a django application, this application is far from perfect but was created to show a range of skill sets both learned over the two month duration of the course and in the short duration of the module release of the course, eg. AmazonLex being introduced in week 8.
+This application was derived out university assessment, to create a chatbot implemented within a django application, this application is far from perfect but was created to show a range of skill sets learned of the short term.
 
 Technologies used:
 Pycharm
